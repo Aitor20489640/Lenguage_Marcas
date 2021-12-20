@@ -1,0 +1,137 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la p�gina se vea correctamente.
+   ================================================================== */
+
+/*-- B�sico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+header, nav, aside, #contenido, #contenido main, #contenido > article, footer {
+  border: 2px solid #777;
+}
+
+header { clear: both; }
+nav { clear: both; }
+aside { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido main { float: left; width: 78%; }
+#contenido > article { float: right; width: 20%; }
+footer { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+header #logo { float: left; }
+header #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+nav ul#menu_principal li { display: inline; float: left; }
+
+/*-- Secci�n Principal -----------------------------------------------*/
+#contenido main .articulo img { width: 100px; float: left; }
+
+/*-- Pie de p�gina ---------------------------------------------------*/
+footer .enlaces   { float: left; }
+footer .copyright { float: right; }
+
+/* === IMPORTANTE ===================================================
+   A partir de aqu�, se pueden a�adir todos los estilos propios que 
+   sean necesarios.
+   ================================================================== */
+
+
+
+header {
+  padding: 1em;
+}
+
+nav {
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+aside > nav, aside > article, main, #contenido > article{
+  padding: 0.18em;
+}
+
+aside > article{
+  margin-top: 1em;
+}
+
+footer{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+}
+.articulo {
+  margin: 1em;
+}
+
+img{
+  margin: 0.5em;
+}
+
+/* parte 2 */
+
+header, nav, aside, #contenido, #contenido main, #contenido > article, footer {
+  border: none;
+}
+
+nav{
+  border-bottom: solid 1px #004C99;
+}
+
+aside > nav{
+  border: solid 1px #C5C5C5;
+}
+
+aside > article{
+  border: dashed 1px #CC6600;
+}
+
+#contenido > article {
+  border: solid 1px #CC6600;
+}
+
+footer {
+  border-top: solid 1px #C5C5C5;
+  border-bottom: solid 1px #C5C5C5;
+}
+
+/* parte 3 */
+
+aside > nav, footer {
+  background-color: #F8F8F8;
+}
+
+aside > article{
+  background-color: #FFF6CD;
+}
+
+#contenido > article > h2 {
+  background-color: #DB905C;
+  padding: .2em;
+}
+
+#contenedor > nav {
+  background-image: url(imagenes/fondo_menu.gif);
+}
+
+header > #logo > h1 {
+  background-image: url(imagenes/logo.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+header > #logo > h1 > span{
+  visibility: hidden;
+}

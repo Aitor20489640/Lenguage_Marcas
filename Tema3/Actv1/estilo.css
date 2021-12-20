@@ -1,0 +1,33 @@
+body {
+    background-color: #CFC;
+    color: blue;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: red;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: #A00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+em {
+    background-color: black;
+    font-style: italic;
+    color: white;
+}
+
+strong {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    color: #060;
+}

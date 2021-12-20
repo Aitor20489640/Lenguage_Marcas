@@ -1,0 +1,91 @@
+#contenedor{
+    height: 640px;
+    width: 640px;
+}
+
+div{
+    height: 80px;
+    width: 80px;
+}
+
+.azul{
+    background-color: aquamarine;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.violet{
+    background-color: violet;
+}
+
+.darkblue{
+    background-color: darkblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.purple{
+    background-color: rgb(128, 0, 85);
+}
+
+.green{
+    background-color: lime;
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.bubble{
+    background-color: palevioletred;
+}
+
+#col1{
+    position: absolute;
+    float: left;
+}
+
+#col2{
+    position: absolute;
+    left: 80px;
+}
+
+#col3{
+    position: absolute;
+    left: 160px;
+}
+
+#col4 {
+    position: absolute;
+    left: 240px;
+}
+
+#col5{
+    position: absolute;
+    left: 320px;
+}
+
+#col6{
+    position: absolute;
+    left: 400px;
+}
+
+#col7{
+    position: absolute;
+    left: 480px;
+}
+
+#col8{
+    position: absolute;
+    left: 560px;
+}
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+::ARG01:: ¿Que tipos de lenguaje de marcas exsisten?
+{ =Presentacion,Procedimientos,Descritivo ~Procedimiento,Semantico,Exposicion ~Semantico,Formativo,Exposicion ~Jerarquico,Democratrico,Imperialista}
+
+::ARG02:: ¿Cual no es una caracteristica de los lenguajes de marcas?
+{ ~Permiten usar metadatos ~Son faciles de interpretar y procesar =Se tienen que compilar ~Se basan en texto plano}
+
+::ARG03:: For what is CSV commonly used?
+{ ~For making of web pages =For data exchange ~For data serialization ~For scripting}
+
+::ARG04:: ¿Que son las etiquetas o marcas?
+{ =Son metadatos ~Son facilmente confundidas con los datos ~Son mayormente rodeadas de puntos y comas ~Se ponen dentro de los datos}
+
+::ARG05:: What type of format is JSON?
+{ ~For database programs ~For spreadsheet ~For scripting =For data interchange}

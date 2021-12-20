@@ -1,0 +1,18 @@
+<xml>
+    <grafico_vectorial>
+        <vertice-inferior-izquierda>"x=0;y=0"</vertice-inferior-izquierda>
+            -<rectangulo>
+                <posicion>"x=150;y=400"</posicion>
+                <altura>120p</altura>
+                <anchura>150p</anchura>
+            </rectangulo>
+            <circumferencia>
+                <posicion>"x=400;y=400"</posicion>
+                <radio>100p</radio>
+            <circumferencia>
+            <linea-recta>
+                <punto-x>"x=500;y=500"</punto-x>
+                <punto-y>"x=400;Y=400"</punto-y>
+            </linea-recta>
+    </grafico_vectorial>
+</xml>

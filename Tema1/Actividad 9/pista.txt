@@ -1,0 +1,4 @@
+Cabecera: Fecha Empresa Cliente
+Cuerpo: <Linea> producto;precio;unidad
+Pie: IVA;Descuento
+

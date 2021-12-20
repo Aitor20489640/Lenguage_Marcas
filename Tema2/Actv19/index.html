@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Actvidad 19</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <form action="datos.html" method="post" target="_blank" name="Formulario">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Escribe tu nombre</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="100"><br>
+        <label for="nacimiento">Escribe tu fecha de nacimiento</label><br>
+        <input type="date" id="nacimiento" name="nacimiento"><br>
+        <label for="cp">Escribe tu codigo postal</label><br>
+        <input type="number" id="cp" name="cp" min="0" max="99999"><br>
+        <label for="email">Escribe tu correo*</label><br>
+        <input type="text" id="email" name="email" required><br>
+        <label for="telf">Escribe tu numero de telefono</label><br>
+        <input type="text" id="telf" name="telefono" maxlength="9"><br>
+      </fieldset>
+      <label for="comida">Elige tu tipo de comida favorita</label>
+      <select name="comida" id="comida">
+        <optgroup label="Española">
+          <option value="Valenciana>">Valenciana</option>
+          <option value="Andaluza">Andaluza</option>
+          <option value="Gallega">Gallega</option>
+        </optgroup>
+        <optgroup label="Internacional">
+          <option value="Italiana">Italiana</option>
+          <option value="Mejicana">Mejicana</option>
+          <option value="Francesa">Francesa</option>
+          <option value="Japonesa">Japonesa</option>
+        </optgroup>
+      </select><br>
+      <label for="query">¿Cómo nos has conocido?</label><br>
+      <input list="question" id="query">
+      <datalist id="question">
+        <option value="Google"></option>
+        <option value="Boca a boca"></option>
+        <option value="otros"></option>
+      </datalist><br>
+      <input type="checkbox" id="news" name="news" checked>
+      <label for="news">Marque para aceptar recibir información comercial mediante newsletter</label><br>
+      <input type="checkbox" id="condi" name="condi" required>
+      <label for="condi">Marque para aceptar las condiciones de la web</label><br>
+      <label for="obvs">Observaciones</label><br>
+      <textarea name="observaciones" id="obvs" maxlength="2000"></textarea><br>
+      <input type="submit" name="submit" value="submit" /><br>
+    </form>
+  </main>
+  <footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/**
+Todos los divs están posicionados de forma absoluta y constan de un borde negro de 3px, además de un padding de 5 px.
+¿Cuál será el tamaño del div ‘casa’?
+Alinear el tejado con la casa, haciendo que coincidan el borde inferior del tejado con el borde superior de la casa.
+Para ello, deberá alterarse el estilo del div ‘tejado’.
+El tejado deberá estar centrado en la casa. Para ello deberá alterarse el estilo del div ‘tejado’.
+Definir una puerta de 50px de alto y 50px de ancho de color marrón y que quede centrada en la casa.
+Definir 1 ‘ventana’ para cada una de las 2 plantas de la casa (30px x 30px).
+**/
+
+.casa, .tejado, .puerta, .ventana, .ventana2 {
+  position: absolute;
+  border: black 3px solid;
+  padding: 5px;
+}
+
+.casa {
+  height: 160px;
+  width: 200px;
+  bottom: 0px;
+  left: 100px;
+  background-color: grey;
+}
+
+.tejado{
+  width: 230px;
+  height: 20px;
+  left: -20px;
+  top: -35px;
+  background-color: red;
+}
+
+.puerta{
+  bottom: 0px;
+  left: 70px;
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
+
+.ventana{
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  bottom: 100px;
+}
+
+.ventana2{
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  bottom: 50px;
+  right: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Evento</title>
+    <style>
+        body {
+            background-image: url(maze/Event.png);
+            background-color: black;
+            background-position:top center;
+            background-repeat: no-repeat;
+            background-size: 1600px 900px;
+            position: relative;
+        }
+        h1.event{
+            text-align: center;      
+            position: relative;
+            right: 0px;
+            top: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 class="event">Estas siendo teletransportado al inicio espera 5 segundos.</h1>
+        <script>
+            setTimeout(function () {
+                location.assign("pag1.html");
+            }, 5000);
+        </script>
+    </main>
+</body>
+
+</html>

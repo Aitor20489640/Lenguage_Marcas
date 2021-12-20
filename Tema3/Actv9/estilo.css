@@ -1,0 +1,49 @@
+/* CSS Hoja de estilo. indice.css */
+
+nav p {
+    color: brown;
+}
+footer p {
+    color: blue;
+}
+aside p {
+    color: darkgreen;
+}
+
+#logo{
+    float: left;
+    top: 5px;
+    left: 10px;
+    width: 9em;
+    
+}
+
+header h1{
+    float: left;
+    font-size: 1.3em;
+    margin-right: 0.5em;
+}
+
+nav{
+    position: relative;
+    float: left;
+}
+
+main{
+    clear: left;
+    float: left;
+    width: 70%;
+}
+
+aside{
+    float: left;
+    width: 30%;
+}
+
+.pie_fecha{
+    float: left;
+}
+
+.pie_pagina{
+    float: right;
+}

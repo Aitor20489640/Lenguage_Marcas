@@ -1,0 +1,21 @@
+<Panel_Autopista>
+	<Evento1>
+		<tipo>señal de accidente</tipo>
+		<Punto_kilometrico>42.200</Punto_kilometrico>
+		<Nombre_via>A_49</Nombre_via>
+		<Sentido>Huelva</Sentido>
+		<Corte_via>1_Carril</Corte_via>
+		<Fecha_Hora>"22/09/2021 14:00"</Fecha_Hora>
+		<Retencion>Si</Retencion>
+		<Kilometros_retencion>8</Kilometros_retencion>
+	</Evento1>
+	<Evento2>
+		<tipo>señal de retencion</tipo>
+		<Punto_kilometrico>550</Punto_kilometrico>
+		<Nombre_via>A_4</Nombre_via>
+		<Sentido>Sevilla</Sentido>
+		<Fecha_Hora>"19/09/2021 21:00"</Fecha_Hora>
+		<Retencion>Si</Retencion>
+		<Kilometros_retencion>3</Kilometros_retencion>
+	</Evento2>
+</Panel_Autopista>
